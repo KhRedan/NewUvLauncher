@@ -1,0 +1,173 @@
+body {
+	background-image: url("uv2.png");
+	background-color: #cccccc;
+	background-size: cover;
+	background-repeat: repeat;
+}
+
+button {
+	display: none;
+	border: none;
+	outline: none;
+	background-color: transparent;
+}
+
+button img {
+	cursor: pointer;
+}
+
+#playbut {
+	position: absolute;
+	width: 40vh;
+	height: 40vh;
+	flex-direction: row;
+	text-align: center;
+	font-size: 4vh;
+	padding: 0px;
+	top: 30vh;
+	left: 5vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#playbut img {
+	width: 40vh;
+	height: auto;
+}
+
+#teamspeak {
+	position: absolute;
+	width: 40vh;
+	height: 40vh;
+	flex-direction: row;
+	text-align: center;
+	font-size: 4vh;
+	padding: 0px;
+	top: 30vh;
+	right: 5vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#teamspeak img {
+	width: 40vh;
+	height: auto;
+}
+
+#youtube {
+	position: absolute;
+	flex-direction: row;
+	text-align: center;
+	font-size: 4vh;
+	padding: 0px;
+	bottom: 0vw;
+	left: 0vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#youtube img {
+	width: 8vw;
+	height: auto;
+}
+
+#instagram {
+	position: absolute;
+	flex-direction: row;
+	text-align: center;
+	font-size: 4vh;
+	padding: 0px;
+	left: 5vw;
+	bottom: 0.3vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#instagram img {
+	width: 8vw;
+	height: auto;
+}
+
+#facebook {
+	position: absolute;
+	flex-direction: row;
+	text-align: center;
+	font-size: 4vh;
+	padding: 0px;
+	right: 6vw;
+	bottom: 2.3vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#facebook img {
+	width: 4vw;
+	height: auto;
+}
+
+#discord {
+	position: absolute;
+	flex-direction: row;
+	text-align: center;
+	font-size: 4vh;
+	padding: 0px;
+	right: 1vw;
+	bottom: 2.3vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#discord img {
+	width: 4vw;
+	height: auto;
+}
+
+#fermer {
+	position: absolute;
+	height: 2vw;
+	width: 2vw;
+	color: #d2b85f;
+	font-size: 2vw;
+	right: 1vw;
+	cursor: pointer;
+	font-weight: bold;
+	vertical-align: center;
+	display: flex;
+	text-align: center;
+	vertical-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+#fermer:hover {
+	border: 0.2vmin solid #d2b85f;
+	border-radius: 1.5vw;
+}
+
+#reduire {
+	position: absolute;
+	height: 2vw;
+	width: 2vw;
+	color: #d2b85f;
+	font-size: 2vw;
+	right: 4vw;
+	cursor: pointer;
+	font-weight: bold;
+	vertical-align: center;
+	display: flex;
+	text-align: center;
+	vertical-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+#reduire:hover {
+	border: 0.2vmin solid #d2b85f;
+	border-radius: 1.5vw;
+}

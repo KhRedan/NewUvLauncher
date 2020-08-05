@@ -1,0 +1,26 @@
+{
+	"name": "unitedvision",
+	"version": "1.1.5",
+	"main": "main.js",
+	"description": "Le Launcher de United Vision",
+	"icon": "icon.png",
+	"author": "Kal",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/KhRedan/NewUvLauncher.git"
+	},
+	"devDependencies": {
+		"electron": "^9.1.2",
+		"electron-builder": "^22.7.0",
+		"electron-packager": "^14.2.1"
+	},
+	"scripts": {
+		"start": "electron .",
+		"build": "electron-builder build --win --publish never",
+		"deploy": "electron-builder build --win --publish always"
+	},
+	"dependencies": {
+		"electron-is-dev": "^1.2.0",
+		"electron-updater": "^4.3.4"
+	}
+}
