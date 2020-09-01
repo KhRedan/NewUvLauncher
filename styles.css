@@ -2,7 +2,12 @@ body {
 	background-image: url("uv2.png");
 	background-color: #cccccc;
 	background-size: cover;
-	background-repeat: repeat;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100vw;
+	height: 100vh;
+	margin: 0px;
+	display: flex;
 }
 
 button {
@@ -18,13 +23,9 @@ button img {
 
 #playbut {
 	position: absolute;
-	width: 40vh;
-	height: 40vh;
 	flex-direction: row;
-	text-align: center;
-	font-size: 4vh;
 	padding: 0px;
-	top: 30vh;
+	align-self: center;
 	left: 5vw;
 	display: flex;
 	align-items: center;
@@ -32,19 +33,15 @@ button img {
 }
 
 #playbut img {
-	width: 40vh;
+	width: 25vw;
 	height: auto;
 }
 
 #teamspeak {
 	position: absolute;
-	width: 40vh;
-	height: 40vh;
 	flex-direction: row;
-	text-align: center;
-	font-size: 4vh;
 	padding: 0px;
-	top: 30vh;
+	align-self: center;
 	right: 5vw;
 	display: flex;
 	align-items: center;
@@ -52,54 +49,48 @@ button img {
 }
 
 #teamspeak img {
-	width: 40vh;
+	width: 25vw;
 	height: auto;
 }
 
 #youtube {
 	position: absolute;
 	flex-direction: row;
-	text-align: center;
-	font-size: 4vh;
 	padding: 0px;
-	bottom: 0vw;
-	left: 0vw;
+	bottom: 1vw;
+	left: 40vw;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
 #youtube img {
-	width: 8vw;
+	width: 4vw;
 	height: auto;
 }
 
 #instagram {
 	position: absolute;
 	flex-direction: row;
-	text-align: center;
-	font-size: 4vh;
 	padding: 0px;
-	left: 5vw;
-	bottom: 0.3vw;
+	left: 45vw;
+	bottom: 1vw;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
 #instagram img {
-	width: 8vw;
+	width: 4vw;
 	height: auto;
 }
 
 #facebook {
 	position: absolute;
 	flex-direction: row;
-	text-align: center;
-	font-size: 4vh;
 	padding: 0px;
-	right: 6vw;
-	bottom: 2.3vw;
+	right: 45vw;
+	bottom: 1vw;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -113,11 +104,9 @@ button img {
 #discord {
 	position: absolute;
 	flex-direction: row;
-	text-align: center;
-	font-size: 4vh;
 	padding: 0px;
-	right: 1vw;
-	bottom: 2.3vw;
+	right: 40vw;
+	bottom: 1vw;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -171,3 +160,35 @@ button img {
 	border: 0.2vmin solid #d2b85f;
 	border-radius: 1.5vw;
 }
+
+#scoop1{
+	position: absolute;
+	flex-direction: row;
+	padding: 0px;
+	left: 1vw;
+	bottom: 1vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#scoop1 img{
+	width: 10vw;
+	height: auto;
+}
+
+#scoop2{
+	position: absolute;
+	flex-direction: row;
+	padding: 0px;
+	right: 1vw;
+	bottom: 1vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#scoop2 img{
+	width: 10vw;
+	height: auto;
+}	

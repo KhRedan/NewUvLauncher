@@ -8,7 +8,7 @@ openbtn.addEventListener("click", () => {
 const tsbtn = document.getElementById("teamspeak");
 
 tsbtn.addEventListener("click", () => {
-	shell.openExternal("ts3server://51.89.126.209?password=Zgiwmiboun123");
+	shell.openExternal("ts3server://51.89.126.209?password=");
 });
 const youtubebtn = document.getElementById("youtube");
 
@@ -43,4 +43,16 @@ const reduirebtn = document.getElementById("reduire");
 
 reduirebtn.addEventListener("click", () => {
 	remote.BrowserWindow.getFocusedWindow().minimize();
+});
+
+const scoop1 = document.getElementById("scoop1");
+
+scoop1.addEventListener("click", () => {
+	shell.openExternal("https://bit.ly/34GbTEu");
+});
+
+const scoop2 = document.getElementById("scoop2");
+
+scoop2.addEventListener("click", () => {
+	shell.openExternal("https://bit.ly/32zuu2f");
 });
