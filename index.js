@@ -3,7 +3,7 @@ const remote = require("electron").remote;
 const openbtn = document.getElementById("playbut");
 
 openbtn.addEventListener("click", () => {
-	shell.openExternal("fivem://connect/cfx.re/join/4a6ml8");
+	shell.openExternal("fivem://connect/cfx.re/join/kvgjoa");
 });
 const tsbtn = document.getElementById("teamspeak");
 
