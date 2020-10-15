@@ -1,0 +1,1 @@
+Explorer.exe fivem://connect/cfx.re/join/kvgjoa
