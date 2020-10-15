@@ -4,7 +4,7 @@ const { autoUpdater } = require("electron-updater");
 
 function appUpdater() {
 	autoUpdater.setFeedURL(
-		"https://github.com/KhRedan/NewUvLauncher/releases/download/v1.1.4/"
+		"https://github.com/KhRedan/NewUvLauncher/releases/download/v1.1.5/"
 	);
 	autoUpdater.checkForUpdates();
 	const checking = new Notification("update", {
